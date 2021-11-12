@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Powiat</title>
+</head>
+
+<body class="contrast">
+  <div class=""> <img class="img-fluid powiat-tlo" src="./Zdjęcia/city-g8cc5ab2ab_1920.jpg"></div>
+  <div class="row bg-white border-bottom border-warning border-3 position-absolute top-0 end-0 px-0 mx-0">
+    <div class="d-flex flex-row align-items-center justify-content-center contrast">
+      <button class="border-white bg-white border-0 contrast" type="button" onclick="fontSize()">
+        <p class="lead px-3 pt-3">+Aa</p>
+      </button>
+      <button class="border-white bg-white border-0 contrast" type="button" onclick="contrast()"><i
+          class="fas fa-adjust px-3"></i></button>
+      <p class="px-3 pt-3">Wersja dla słabowidzących</p>
+      <img class="bip mb-2 mt-2" src="Zdjęcia/bip.png">
+    </div>
+  </div>
+  <nav
+    class="position-sticky top-0 navbar navbar-expand-lg navbar-dark bg-primary  border-bottom border-warning border-3 shadow contrast"
+    style="z-index: 999;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-uppercase text-white fw-bold contrast" href="#">Powiat gorlicki</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active contrast" aria-current="page" href="#">Strona głowna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#"> Aktualności</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#"> Powiat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#">Praca zarządu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#">Urząd</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#">Załatw sprawę</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#">Zamówenia publiczne</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#">Kontakt</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="Formularz.html">Formularz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white contrast" href="#"><i class="fas fa-search contrast"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <article class="container-fluid py-5">
+      <div class="container">
+        <span class="fw-bold h4 contrast" data-aos="zoom-in">Projekt współfinansowany ze środków UE</span>
+        <div id="apiContent" class="row py-4">
+        
+        </div>
+        <div class="text-end contrast" data-aos="zoom-in">
+          <div class="btn btn-primary contrast">Zobacz więcej</div>
+        </div>
+      </div>
+    </article>
+    <article class="container-fluid py-5">
+      <div class="container contrast">
+        <div class="row gx-5">
+          <div class="col-md-6 col-sm-12 px-4">
+            <span class="text-primary fw-bold h4" data-aos="zoom-in">Miasto</span>
+            <div class="card mb-3 mt-4 border-white contrast" data-aos="zoom-in" style="max-width: 540px;">
+              <div class="row g-0 py-0 px-0 bottom-inOutSpread-miasto contrast">
+                <div class="col-md-6 contrast">
+                  <img src="./Zdjęcia/pobrany plik (6).jpg" class="img-fluid w-100 " alt="...">
+                </div>
+                <div class="col-md-6 bg-UE contrast">
+                  <div class="card-body pb-2 bg-UE contrast">
+                    <p class="card-text contrast"><small class="text-muted contrast">2021-09-13</small><span
+                        class="btn btn-primary btn-sm ms-3 contrast">Miasto</span></p>
+                    <p class="card-text fw-bolder contrast">Doświetlenia przejść dla pieszych to bezpieczeństow
+                      mieszkańców</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-4 border-white " data-aos="zoom-in" style="max-width: 540px;">
+              <div class="row g-0 py-0 px-0 bottom-inOutSpread-miasto ">
+                <div class="col-md-6">
+                  <img src="./Zdjęcia/pobrany plik (7).jpg" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="col-md-6 bg-UE contrast">
+                  <div class="card-body pb-2 bg-UE contrast">
+                    <p class="card-text"><small class="text-muted contrast">2021-09-13</small><span
+                        class="btn btn-primary btn-sm ms-3 contrast">Miasto</span></p>
+                    <p class="card-text fw-bolder">Będzie remontowana kolejna powiatówka</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-4 border-white " data-aos="zoom-in" style="max-width: 540px;">
+              <div class="row g-0 py-0 px-0 bottom-inOutSpread-miasto ">
+                <div class="col-md-6 ">
+                  <img src="./Zdjęcia/pobrany plik (8).jpg" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="col-md-6 bg-UE contrast">
+                  <div class="card-body pb-2 bg-UE contrast">
+                    <p class="card-text "><small class="text-muted contrast">2021-09-13</small><span
+                        class="btn btn-primary btn-sm ms-3 contrast">Miasto</span></p>
+                    <p class="card-text fw-bolder contrast">Pieniądze z "Polskiego Ładu" dla powiatu gorlickego</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-end pt-5 contrast" data-aos="zoom-in">
+              <div class="btn btn-primary contrast">Pokaż więcej</div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 contrast px-4">
+            <span class="text-danger fw-bold h4 " data-aos="zoom-in">Urząd</span>
+            <div class="card mb-3 mt-4 d-flex " data-aos="zoom-in" style="max-width: 540px;">
+              <div class="row g-0 py-0 px-0  bottom-inOutSpread-urząd">
+                <div class="col-md-6 ">
+                  <img src="./Zdjęcia/pobrany plik.png" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="col-md-6 bg-UE contrast">
+                  <div class="card-body pb-2 bg-UE contrast">
+                    <p class="card-text"><small class="text-muted contrast">2021-09-13</small><span
+                        class="btn btn-danger btn-sm ms-3 contrast">Urząd</span></p>
+                    <p class="card-text fw-bolder contrast">Doświetlenia przejść dla pieszych to bezpieczeństow
+                      mieszkańców</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-4" data-aos="zoom-in" style="max-width: 540px;">
+              <div class="row g-0 py-0 px-0  bottom-inOutSpread-urząd">
+                <div class="col-md-6">
+                  <img src="./Zdjęcia/images.png" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="col-md-6 bg-UE contrast">
+                  <div class="card-body pb-2 bg-UE contrast">
+                    <p class="card-text contrast"><small class="text-muted contrast">2021-09-13</small><span
+                        class="btn btn-danger btn-sm ms-3 contrast">Urząd</span></p>
+                    <p class="card-text fw-bolder contrast">Doświetlenia przejść dla pieszych to bezpieczeństow
+                      mieszkańców</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 mt-4 border-white" data-aos="zoom-in" style="max-width: 540px;">
+              <div class="row g-0 py-0 px-0  bottom-inOutSpread-urząd">
+                <div class="col-md-6">
+                  <img src="./Zdjęcia/pobrany plik (9).jpg" class="img-fluid w-100" alt="...">
+                </div>
+                <div class="col-md-6 bg-UE contrast">
+                  <div class="card-body pb-2 bg-UE contrast">
+                    <p class="card-text"><small class="text-muted contrast">2021-09-13</small><span
+                        class="btn btn-danger btn-sm ms-3 contrast">Urząd</span></p>
+                    <p class="card-text fw-bolder contrast">Doświetlenia przejść dla pieszych to bezpieczeństow
+                      mieszkańców</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-end pt-5 contrast" data-aos="zoom-in">
+              <div class="btn btn-primary contrast">Pokaż więcej</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="container-fluid tlo py-5 contrast">
+      <div class="container contrast">
+        <span class="fw-bold h4" data-aos="zoom-in">Na skróty</span>
+        <div class="row py-1">
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center " data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fab fa-accessible-icon icon-size svg-hover"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold">Dostępność urzędu</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-briefcase icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Nieodpłatna pomoc prawna</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-virus icon-size "></i>
+                <figcaption class="pt-3 ">
+                  <span class="fw-bold ">COVID - 19</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-file-alt icon-size svg-hover"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Bieżąca praca zarządu</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-chart-line icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Inwestycje</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-envelope icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">E-PUAP</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-video icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Transmisje z sesji rady powiatu</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-exclamation-triangle icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Centrum zarządzania kryzysowego</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-map-marked-alt icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Geoportal powiatu gorlickiego</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-user-secret icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Ochrona danych osobowych</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-map icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Turystyka</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-euro-sign icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Fundusze europejskie</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-globe icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Organizacje</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-5 col-sm-6 g-4 text-center" data-aos="zoom-in">
+            <div class="kafelek pt-2 shadow-lg svg-hover contrast">
+              <figure class="pt-4 contrast">
+                <i class="fas fa-users icon-size"></i>
+                <figcaption class="pt-3">
+                  <span class="fw-bold ">Sprawy społeczne</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section class="container py-5 my-5 contrast">
+      <div data-aos="zoom-in">
+        <span class="fw-bold h3 contrast">Gminy powiatu Gorlickego</span>
+      </div>
+      <div class="container">
+        <div class="splide pt-5">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide text-center">
+                <figure class="gminy-fliter" data-aos="zoom-in">
+                  <img src="./Zdjęcia/biecz.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Miasto Biecz</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide text-center">
+                <figure class="gminy-fliter" data-aos="zoom-in">
+                  <img src="./Zdjęcia/gmina_bobowa.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Miasto Bobowa</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide text-center" data-aos="zoom-in">
+                <figure class="gminy-fliter justify-content-center">
+                  <img src="./Zdjęcia/gmina_lipinki.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Gmina Lipinki</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide text-center" data-aos="zoom-in">
+                <figure class="gminy-fliter">
+                  <img src="./Zdjęcia/gmina_luzna.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Gmina Łużna</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide text-center" data-aos="zoom-in">
+                <figure class="gminy-fliter">
+                  <img src="./Zdjęcia/moszczenica.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Gmina Moszczenica</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide text-center" data-aos="zoom-in">
+                <figure class="gminy-fliter">
+                  <img src="./Zdjęcia/gmina_ropa.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Gmina Ropa</span>
+                  </figcaption>
+                </figure>
+              </li>
+              <li class="splide__slide text-center" data-aos="zoom-in">
+                <figure class="gminy-fliter">
+                  <img src="./Zdjęcia/sekowa3.png" class="gminy" alt="">
+                  <figcaption class="contrast">
+                    <span class="text-center h5 text-muted contrast">Gmina Sękowa</span>
+                  </figcaption>
+                </figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid my-3" data-aos="zoom-in">
+      <div class="row justify-content-center align-items-center border-bottom border-2 border-warning pb-5">
+        <div class="col-md-3 d-flex justify-content-center align-items-center ">
+          <div class="loga py-4"> <img src="https://www.fundusze.malopolska.pl/img/original/101.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+          <div class="loga py-4"> <img src="./Zdjęcia/32.png" class="img-fluid"></div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+          <div class="loga py-4"> <img src="/Zdjęcia/pobrany plik.png" class="img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid my-5 border-bottom border-dark border-3" data-aos="zoom-in">
+      <div class="row justify-content-center">
+        <div class="col-md-3">
+          <div class="justify-content-center align-items-center d-flex flex-column">
+            <div class="powiat"><img class="img-fluid logo-powiat"
+                src="https://www.powiatgorlicki.pl/templates/starostwo-main/img/logo.png"></div>
+            <p class="h4 text-uppercase fw-bold contrast">Powiat gorlicki</p>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+          <ul class="list-unstyled lh-lg">
+            <li class="text-uppercase contrast">Starostwo powiatowe w gorlicach</li>
+            <li class="contrast">ul. Biecka 3, 38-300 Gorlice</li>
+            <li class="contrast">woj. małopolskie</li>
+            <li class="contrast">tel.: (018) 343 53 80</li>
+            <li class="contrast">fax: (018) 353 75 45</li>
+            <li class="contrast">starostwo@powiatgorlicki.pl</li>
+          </ul>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center contrast">
+          <ul class="list-unstyled lh-lg">
+            <li class="contrast">Godziny pracy:</li>
+            <li class="contrast">Poniedziałek - piątek 7.30 - 15.30</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="contrast">
+    <div class="row mx-0 px-0 justify-content-md-between justify-content-center align-items-center contrast">
+      <div class="col-md-3 contrast">
+        <p class="text-muted text-center px-4 contrast">Copyright 2021. Wszystkie prawa zastrzeżone.</p>
+      </div>
+      <div class="col-md-3 contrast">
+        <p class="text-muted text-center px-4 contrast"><span class="contrast">Projekt oraz wykonanie: L4web.pl</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://kit.fontawesome.com/2d288998a8.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+  <script src="./main.js"></script>
+  <script src="./api.js"></script>
+  <script src="./deletedPost.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var splide = new Splide('.splide', {
+      type: 'loop',
+      perPage: 3,
+      perMove: 1,
+      autoplay: true,
+      pagination: false,
+      arrows: false,
+      interval: 2000,
+    });
+    splide.mount();
+  </script>
+</body>
+
+</html>

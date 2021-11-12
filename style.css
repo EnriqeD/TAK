@@ -1,0 +1,144 @@
+.tlo {
+    background-color: #f2f8fc;
+}
+
+.svg-hover :hover {
+    opacity: 70%;
+    transition-duration: 90ms;
+}
+
+.kafelek {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.icon-size {
+    font-size: 80px;
+}
+
+.bg-UE {
+    background-color: #f7f7f7;
+}
+
+.bip {
+    width: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapping-miastourząd {
+        width: 55% !important
+    }
+}
+
+.logo-powiat {
+    width: 120px;
+}
+
+.gminy {
+    width: 140px;
+    filter: grayscale(1);
+}
+
+.gminy-fliter :hover {
+    filter: grayscale(0);
+}
+
+.bottom-inOutSpread-miasto:before,
+.bottom-inOutSpread-miasto:after,
+.bottom-inOutSpread-miasto>.ui-border-elementd:before,
+.bottom-inOutSpread-miasto>.ui-border-element:after {
+    content: '';
+    position: absolute
+}
+
+.bottom-inOutSpread-miasto:after {
+    border-bottom: 5px solid #0d6efd;
+    left: 51%;
+    right: 51%;
+    bottom: 0px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    -moz-transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    -o-transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+.bottom-inOutSpread-miasto:hover:after {
+    left: 0%;
+    right: 0%
+}
+
+.bottom-inOutSpread-miasto:not(:hover):after {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+.bottom-inOutSpread-urząd:before,
+.bottom-inOutSpread-urząd:after,
+.bottom-inOutSpread-urząd>.ui-border-elementd:before,
+.bottom-inOutSpread-urząd>.ui-border-element:after {
+    content: '';
+    position: absolute
+}
+
+.bottom-inOutSpread-urząd:after {
+    border-bottom: 5px solid #dc3545;
+    left: 51%;
+    right: 51%;
+    bottom: 0px;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    -moz-transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    -o-transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    transition-timing-function: cubic-bezier(0, 0.98, 0.51, 0.93);
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+.bottom-inOutSpread-urząd:hover:after {
+    left: 0%;
+    right: 0%
+}
+
+.bottom-inOutSpread-urząd:not(:hover):after {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s
+}
+
+.contr-text {
+    color: #ffff00 !important;
+}
+
+.contr-bg {
+    background: black !important;
+}
+
+.fontSize {
+    font-size: 25px !important;
+}
